@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mini QQ Video</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div id="app">
+    <div id="control-bar">
+      <button id="btn-back" class="control-btn"><i class="btn-ic fa fa-chevron-left fa-fw"></i></button>
+      <button id="btn-forward" class="control-btn"><i class="btn-ic fa fa-chevron-right fa-fw"></i></button>
+      <button id="btn-reload" class="control-btn"><i class="btn-ic fa fa-refresh fa-fw"></i></button>
+      <button id="btn-pin" class="control-btn active"><i class="btn-ic fa fa-thumb-tack fa-fw"></i></button>
+    </div>
+    <webview id="webview" src="http://v.qq.com"></webview>
+  </div>
+  <script src="./assets/js/zepto.min.js"></script>
+  <script>
+    require('./assets/js/renderer.js');
+  </script>
+</body>
+
+</html>

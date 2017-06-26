@@ -1,0 +1,20 @@
+{
+  "name": "miniqv",
+  "version": "1.0.0",
+  "description": "Mini QQ Video",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "QQ",
+    "Video",
+    "mini"
+  ],
+  "author": "Hanai",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.6.11"
+  }
+}
