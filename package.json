@@ -18,6 +18,7 @@
     "appId": "com.ihanai.miniqv"
   },
   "author": "Hanai",
+  "productName": "MiniQV",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
